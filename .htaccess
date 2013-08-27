@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine    on
+    RewriteBase /$path_to_app_root_from_document_root$/
+    RewriteRule      ^$ app/webroot/ [L]
+    RewriteRule      (.*) app/webroot/$1 [L]
+</IfModule>
