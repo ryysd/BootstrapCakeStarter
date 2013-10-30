@@ -17,6 +17,10 @@ mkdir -p ./app/tmp/view
 mkdir -p ./app/tmp/persistent
 mkdir -p ./app/tmp/log
 
+mkdir -p ./app/tmp/cache/models
+mkdir -p ./app/tmp/cache/view
+mkdir -p ./app/tmp/cache/persistent
+
 chmod -R 707 ./app/tmp
 
 if [ ! -e app/Config/database.php ]; then
