@@ -13,7 +13,6 @@
     <!-- Bootstrap -->
     <?php echo $this->Html->css('cake-support'); ?>
     <?php echo $this->Html->css('bootstrap.min'); ?>
-	  <?php echo $this->Html->css('bootstrap-responsive.min'); ?>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
