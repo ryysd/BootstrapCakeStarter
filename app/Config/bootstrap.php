@@ -107,4 +107,4 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
-CakePlugin::load(array('TwitterBootstrap'));
+// CakePlugin::load(array('TwitterBootstrap'));
